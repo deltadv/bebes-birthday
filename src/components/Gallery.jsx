@@ -37,7 +37,7 @@ const texts = [
 
 const Gallery = () => {
   return (
-    <div className="w-full h-auto p-20 flex flex-col justify-center items-center">
+    <div className="w-full h-auto p-4 sm:p-20 flex flex-col justify-center items-center">
       <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
         <div className="grid gap-4">
           <div className="relative group">
