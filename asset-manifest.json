@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/bebes-birthday/static/css/main.79e92a72.css",
+    "main.js": "/bebes-birthday/static/js/main.d8017628.js",
+    "static/media/photo16.jpg": "/bebes-birthday/static/media/photo16.ed06000f08b4380cd66b.jpg",
+    "static/media/photo9.jpg": "/bebes-birthday/static/media/photo9.a6b15ea7066c5b2d6f02.jpg",
+    "static/media/photo14.jpg": "/bebes-birthday/static/media/photo14.2233c5b6b0a0abb2b1e2.jpg",
+    "static/media/photo11.jpg": "/bebes-birthday/static/media/photo11.376f27268efc6fe77965.jpg",
+    "static/media/photo1.jpg": "/bebes-birthday/static/media/photo1.31e6b1b678a527946a7f.jpg",
+    "static/media/nothing.mp3": "/bebes-birthday/static/media/nothing.4aa70ce9b74d24a9237b.mp3",
+    "static/media/photo10.jpg": "/bebes-birthday/static/media/photo10.7d75a5327bc8d3ac8551.jpg",
+    "static/media/photo2.jpg": "/bebes-birthday/static/media/photo2.22e1ca88d1c2fc428a57.jpg",
+    "static/media/cover.png": "/bebes-birthday/static/media/cover.9e20496fe1c2e8705c18.png",
+    "static/media/photo5.jpg": "/bebes-birthday/static/media/photo5.122bb94f3b92a239ed19.jpg",
+    "static/media/photo12.jpg": "/bebes-birthday/static/media/photo12.de49262f91e583139d22.jpg",
+    "static/media/photo7.jpg": "/bebes-birthday/static/media/photo7.7e241e279bedc6b15163.jpg",
+    "static/media/photo4.jpg": "/bebes-birthday/static/media/photo4.2878d0502e50262a8a11.jpg",
+    "static/media/photo15.jpg": "/bebes-birthday/static/media/photo15.4208a9cda14931f26488.jpg",
+    "static/media/photo8.jpg": "/bebes-birthday/static/media/photo8.7909e6de0b70a728b0cd.jpg",
+    "static/media/photo6.jpg": "/bebes-birthday/static/media/photo6.66b5e13cb5f5314bd32d.jpg",
+    "static/media/photo3.jpg": "/bebes-birthday/static/media/photo3.928920509e330cd9a566.jpg",
+    "static/media/photo13.jpg": "/bebes-birthday/static/media/photo13.05917fbceca246420c4e.jpg",
+    "index.html": "/bebes-birthday/index.html",
+    "main.79e92a72.css.map": "/bebes-birthday/static/css/main.79e92a72.css.map",
+    "main.d8017628.js.map": "/bebes-birthday/static/js/main.d8017628.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79e92a72.css",
+    "static/js/main.d8017628.js"
+  ]
+}
