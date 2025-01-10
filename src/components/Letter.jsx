@@ -1,58 +1,43 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 function Letter() {
-  const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-
-  useEffect(() => {
-    const targetDate = new Date('2025-01-10T13:15:00');
-
-    const interval = setInterval(() => {
-      const now = new Date();
-      const difference = targetDate - now;
-
-      if (difference <= 0) {
-        clearInterval(interval);
-        return;
-      }
-
-      const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
-      const minutes = Math.floor((difference / (1000 * 60)) % 60);
-      const seconds = Math.floor((difference / 1000) % 60);
-
-      setTimeLeft({ days, hours, minutes, seconds });
-    }, 1000);
-
-    return () => clearInterval(interval);
-  }, []);
-
   return (
-    <div className="w-full h-screen flex justify-center items-center px-4 sm:px-8 md:px-12">
-      <div className="flex space-x-2 sm:space-x-4 md:space-x-6">
-        <div className="flex flex-col items-center w-16 sm:w-20 md:w-24 h-20 sm:h-24 md:h-32 bg-gray-800 text-yellow-500 rounded-md justify-center">
-          <div className="text-2xl sm:text-4xl md:text-5xl font-semibold">{timeLeft.days}</div>
-          <div className="text-xs sm:text-sm md:text-base">days</div>
-        </div>
-
-        <div className="flex items-center justify-center text-yellow-500 text-xl sm:text-2xl md:text-3xl font-semibold">:</div>
-
-        <div className="flex flex-col items-center w-16 sm:w-20 md:w-24 h-20 sm:h-24 md:h-32 bg-gray-800 text-yellow-500 rounded-md justify-center">
-          <div className="text-2xl sm:text-4xl md:text-5xl font-semibold">{timeLeft.hours}</div>
-          <div className="text-xs sm:text-sm md:text-base">hours</div>
-        </div>
-
-        <div className="flex items-center justify-center text-yellow-500 text-xl sm:text-2xl md:text-3xl font-semibold">:</div>
-
-        <div className="flex flex-col items-center w-16 sm:w-20 md:w-24 h-20 sm:h-24 md:h-32 bg-gray-800 text-yellow-500 rounded-md justify-center">
-          <div className="text-2xl sm:text-4xl md:text-5xl font-semibold">{timeLeft.minutes}</div>
-          <div className="text-xs sm:text-sm md:text-base">min</div>
-        </div>
-
-        <div className="flex items-center justify-center text-yellow-500 text-xl sm:text-2xl md:text-3xl font-semibold">:</div>
-
-        <div className="flex flex-col items-center w-16 sm:w-20 md:w-24 h-20 sm:h-24 md:h-32 bg-gray-800 text-yellow-500 rounded-md justify-center">
-          <div className="text-2xl sm:text-4xl md:text-5xl font-semibold">{timeLeft.seconds}</div>
-          <div className="text-xs sm:text-sm md:text-base">sec</div>
+    <div className="w-full h-auto flex justify-center items-center py-10 sm:py-20">
+      <div className="max-w-3xl w-full px-6 sm:px-8 font-normal">
+        <p className="text-base font-medium leading-relaxed text-yellow-500 mb-8">
+          Dear Retha Syalva Ardhyageraneta,
+        </p>
+        <p className="text-base leading-relaxed text-yellow-500 mb-8">
+          Pernah ga sih kamu ngerasa kalau ada orang yang hadir di hidup kamu bukan karena kebetulan? Buat aku, kamu orangnya. Kamu orang yang bisa bikin aku ngerasa, "Ah, this is what it feels to be truly understood."
+        </p>
+        <p className="text-base leading-relaxed text-yellow-500 mb-8">
+          Ada sesuatu tentang kamu yang ga pernah bisa aku ungkapin dengan kata-kata sederhana. It's like you carry a piece of the universe with you, and every time I'm with you, I feel like I'm exactly where I'm supposed to be.
+        </p>
+        <p className="text-base leading-relaxed text-yellow-500 mb-8">
+          You're my sunshine in the truest sense. Kamu hangat without ever trying too hard. Kamu udah bawa energi yang ga cuma bikin aku ngerasa hidup, tapi juga bikin aku pengen jadi the best version of myself.
+        </p>
+        <p className="text-base leading-relaxed text-yellow-500 mb-8">
+          I know I can be a lot to handle sometimes, dengan semua ekspektasi, semua kebisingan di kepala, dan semua emosi yang ga bisa aku jelasin. Tapi kamu selalu punya cara buat bikin aku ga ngerasa berat buat disayang, buat dicintai. You just stay. You choose me, every single day.
+        </p>
+        <p className="text-base leading-relaxed text-yellow-500 mb-8">
+          So, thank you for that. For loving me in a way that feels genuine, tanpa basa-basi, unconditionally.
+        </p>
+        <p className="text-base leading-relaxed text-yellow-500 mb-8">
+          So here’s to you, my love, my sunshine, my ENFP. You deserve all the good things life has to offer. You deserve all the happiness, all the love, and everything you’ve ever dreamed of. I wish you all the best, sayang. Panjang umur, sehat, banyak rezeki, dan bahagia selalu. Semoga kamu selalu punya hubungan yang baik sama temen-temen kamu, keluarga kamu, dan semua orang di sekitar kamu. Semakin jago mole-nya, MVP terus, dan ga ngerasa diri kamu dark system lagi. Semoga kamu juga menang war tiap kali ada Sonny Angel yang kamu mau. Aku ga tahu apa yang masa depan bakal bawa buat kita, tapi aku tahu satu hal: selama kamu ada, aku ga akan pernah kehilangan arah.
+        </p>
+        <p className="text-base leading-relaxed text-yellow-500 mb-8">
+          Aku harap kita muda terus dan bisa hidup selamanya. Aku harap kita merasakan cinta yang sama untuk puluhan tahun selanjutnya.
+        </p>
+        <p className="text-base leading-relaxed text-yellow-500 mb-8">
+          Sekali lagi, happy birthday, Mon Bébé.
+        </p>
+        <p className="text-base text-right text-yellow-500 mb-8 font-medium">
+          With all my love and everything I am,
+        </p>
+        <div className="text-right pt-6">
+          <p className="text-base leading-relaxed text-yellow-500 font-medium">
+            — Deva Raja
+          </p>
         </div>
       </div>
     </div>
