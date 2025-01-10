@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bebes-birthday/static/css/main.b56374ac.css",
-    "main.js": "/bebes-birthday/static/js/main.e349aa4f.js",
+    "main.css": "/bebes-birthday/static/css/main.48a90f01.css",
+    "main.js": "/bebes-birthday/static/js/main.66daad69.js",
     "static/media/photo16.jpg": "/bebes-birthday/static/media/photo16.ed06000f08b4380cd66b.jpg",
     "static/media/photo9.jpg": "/bebes-birthday/static/media/photo9.a6b15ea7066c5b2d6f02.jpg",
     "static/media/photo14.jpg": "/bebes-birthday/static/media/photo14.2233c5b6b0a0abb2b1e2.jpg",
@@ -21,11 +21,11 @@
     "static/media/photo3.jpg": "/bebes-birthday/static/media/photo3.928920509e330cd9a566.jpg",
     "static/media/photo13.jpg": "/bebes-birthday/static/media/photo13.05917fbceca246420c4e.jpg",
     "index.html": "/bebes-birthday/index.html",
-    "main.b56374ac.css.map": "/bebes-birthday/static/css/main.b56374ac.css.map",
-    "main.e349aa4f.js.map": "/bebes-birthday/static/js/main.e349aa4f.js.map"
+    "main.48a90f01.css.map": "/bebes-birthday/static/css/main.48a90f01.css.map",
+    "main.66daad69.js.map": "/bebes-birthday/static/js/main.66daad69.js.map"
   },
   "entrypoints": [
-    "static/css/main.b56374ac.css",
-    "static/js/main.e349aa4f.js"
+    "static/css/main.48a90f01.css",
+    "static/js/main.66daad69.js"
   ]
 }
